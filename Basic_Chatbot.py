@@ -1,7 +1,5 @@
 def chatbot():
-    """
-    A simple rule-based chatbot that responds to basic user inputs
-    """
+
     print("Chatbot: Hello! I'm a simple chatbot. Type 'bye' to exit.")
     
     while True:
@@ -30,4 +28,5 @@ def chatbot():
             print("Chatbot: I'm sorry, I don't understand that. Try saying 'hello' or 'how are you'?")
 
 if __name__ == "__main__":
+
     chatbot()
